@@ -54,14 +54,14 @@ h2, h3 {
 }
 
 h2 {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   text-transform: uppercase;
   font-weight: 700
 }
 
 h2 i {
   vertical-align: bottom;
-  margin-left: 10px
+  margin-left: 15px
 }
 
 h3 {
@@ -107,7 +107,7 @@ ul li {
   grid-template-rows: .1fr 2fr; /* 2-row grid */
   grid-template-areas: "header header"
 	                   "aside main";
-  grid-gap: 20px; /* gap between the columns */
+  grid-gap: 15px; /* gap between the columns */
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
@@ -119,8 +119,8 @@ ul li {
 
 header {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: 2.1fr 2.1fr 1.5fr 1.4fr;
+  grid-gap: 30px;
   border-bottom: 1px dashed #ddd;
  
   grid-area: header; /* header spans full columns */ 
